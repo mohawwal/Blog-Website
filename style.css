@@ -46,6 +46,7 @@ body {
     position: fixed;
     top: 0;
     background: var(--background-white);
+    z-index: 3;
 }
 
 
@@ -725,7 +726,7 @@ body {
         font-family: New York Small;
         font-size: 20px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 170%; /* 34px */
         letter-spacing: 2.4px;
         text-transform: uppercase;
@@ -774,7 +775,7 @@ body {
     }
     .blog-main-page {
         margin: 0 auto;
-        max-width: 1300px;
+        max-width: 1200px;
     }
     
     .blog-main-page {
